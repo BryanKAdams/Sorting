@@ -49,7 +49,7 @@ def merge_sort(arr):
     # TO-DO
     if len(arr) <= 1:
         return arr
-    arr1 = arr[0:len(arr) //2]
+    arr1 = arr[:len(arr) //2]
     arr2 = arr[len(arr) //2:]
 
     arr1 = merge_sort(arr1)
